@@ -29,6 +29,22 @@ php artisan migrate
 
 Pada config\app tambahkan fortify service provider
 
+install laravel/ui untuk tampilan
+
+```
+composer require laravel/ui
+```
+
+kemudian install tampilanya dengan perintah artisan (disini saya menggunakan bootstrap)
+
+``` 
+php artisan ui bootstrap --auth
+```
+
+Disc:Pastikan sudah menginstall node js
+
+
+untuk mengaktifkan verifikasi email jangan lupa untuk aktifkan terlebih dahulu featur Email verifikasi di config\fortify.php
 
 ## License
 
