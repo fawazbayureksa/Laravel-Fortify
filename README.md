@@ -46,6 +46,10 @@ Disc:Pastikan sudah menginstall node js
 
 untuk mengaktifkan verifikasi email jangan lupa untuk aktifkan terlebih dahulu featur Email verifikasi di config\fortify.php
 
+
+
+
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

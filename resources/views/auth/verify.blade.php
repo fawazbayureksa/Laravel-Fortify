@@ -16,7 +16,8 @@
 
                     {{ __('Before proceeding, please check your email for a verification link.') }}
                     {{ __('If you did not receive the email') }},
-                    <form class="d-inline" method="POST" action="{{ route('verification.resend') }}">
+                    <!-- jika tidak menggunakan kontroller dari auth laravel ui actionya di ganti dari route('verification.resend') ke ..-->
+                    <form class="d-inline" method="POST" action="/email/verification-notification">
                         @csrf
                         <button type="submit" class="btn btn-link p-0 m-0 align-baseline">{{ __('click here to request another') }}</button>.
                     </form>
